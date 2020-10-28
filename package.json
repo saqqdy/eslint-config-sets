@@ -1,0 +1,22 @@
+{
+	"name": "eslint-config-sets",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/saqqdy/eslint-config-sets.git"
+	},
+	"keywords": [
+		"eslint-config"
+	],
+	"author": "saqqdy",
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^7.12.1",
+		"prettier": "^2.1.2"
+	}
+}
