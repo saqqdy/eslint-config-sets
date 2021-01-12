@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-sets",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -16,6 +16,7 @@
 	"author": "saqqdy",
 	"license": "ISC",
 	"devDependencies": {
+		"babel-eslint": "^10.1.0",
 		"eslint": "^7.12.1",
 		"prettier": "^2.1.2"
 	}

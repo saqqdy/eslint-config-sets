@@ -1,7 +1,11 @@
 {
 	"root": true,
 	"env": {
-		"node": true
+		"node": true,
+		"es6": true,
+		"browser": true,
+		"shelljs": true,
+		"commonjs": true
 	},
 	"rules": {
 		"no-console": ["warn", { "allow": ["warn", "error", "info"] }],
@@ -43,8 +47,10 @@
 			}
 		}
 	],
+	"parser": "babel-eslint",
 	"parserOptions": {
-		"parser": "babel-eslint"
+		"ecmaVersion": 6,
+		"sourceType": "module"
 	},
 	"extends": ["plugin:vue/essential", "plugin:vue-scoped-css/base", "eslint:recommended", "plugin:jsdoc/recommended"]
 }
