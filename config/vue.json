@@ -47,10 +47,11 @@
 			}
 		}
 	],
-	"parser": "babel-eslint",
+	"parser": "vue-eslint-parser",
 	"parserOptions": {
-		"ecmaVersion": 6,
-		"sourceType": "module"
+		"sourceType": "module",
+		"parser": "babel-eslint",
+		"vueFeatures": {}
 	},
 	"extends": ["plugin:vue/essential", "plugin:vue-scoped-css/base", "eslint:recommended", "plugin:jsdoc/recommended"]
 }
