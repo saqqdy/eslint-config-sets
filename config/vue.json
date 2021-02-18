@@ -53,6 +53,6 @@
         "parser": "@babel/eslint-parser",
         "vueFeatures": {}
     },
-    "extends": ["plugin:vue/essential", "plugin:vue-scoped-css/base", "eslint:recommended", "plugin:jsdoc/recommended"],
+    "extends": ["plugin:vue/essential", "plugin:vue-scoped-css/base", "eslint:recommended", "plugin:prettier/recommended", "plugin:jsdoc/recommended"],
     "plugins": ["prettier"]
 }
