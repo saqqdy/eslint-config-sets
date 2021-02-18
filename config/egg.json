@@ -51,6 +51,5 @@
         "parser": "@babel/eslint-parser"
     },
     "parser": "@babel/eslint-parser",
-    "extends": "eslint-config-egg",
-    "plugins": ["prettier"]
+    "extends": "eslint-config-egg"
 }

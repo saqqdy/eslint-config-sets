@@ -12,7 +12,7 @@
         "sourceType": "module",
         "parser": "@babel/eslint-parser"
     },
-    "extends": ["plugin:vue/vue3-essential", "eslint:recommended", "plugin:prettier/recommended", "@vue/prettier", "plugin:jsdoc/recommended"],
+    "extends": ["plugin:vue/vue3-essential", "eslint:recommended", "@vue/prettier", "plugin:jsdoc/recommended"],
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
@@ -67,6 +67,5 @@
                 "vue/valid-v-model": 0
             }
         }
-    ],
-    "plugins": ["prettier"]
+    ]
 }
