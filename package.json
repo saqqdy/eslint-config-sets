@@ -1,25 +1,34 @@
 {
-	"name": "eslint-config-sets",
-	"version": "1.0.6",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/saqqdy/eslint-config-sets.git"
-	},
-	"keywords": [
-		"eslint-config"
-	],
-	"author": "saqqdy",
-	"license": "ISC",
-	"devDependencies": {
-		"babel-eslint": "^10.1.0",
-		"eslint": "^7.12.1",
-		"prettier": "^2.1.2",
-		"vue-eslint-parser": "^7.3.0"
-	},
-	"dependencies": {}
+    "name": "eslint-config-sets",
+    "version": "1.0.7",
+    "description": "eslint sets demo",
+    "main": "index.js",
+    "scripts": {
+        "prettier": "prettier --write \"**/*.{js,ts,sh,json,md}\"",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/saqqdy/eslint-config-sets.git"
+    },
+    "keywords": [
+        "eslint-config",
+        "eslint-config-sets",
+        "eslint-vue",
+        "eslint-vue3",
+        "eslint-nuxt",
+        "eslint",
+        "eslint-helper"
+    ],
+    "author": "saqqdy",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/eslint-parser": "^7.12.16",
+        "@saqqdy/prettier-config": "^1.0.3",
+        "eslint": "^7.12.1",
+        "prettier": "^2.1.2",
+        "vue-eslint-parser": "^7.3.0"
+    },
+    "dependencies": {}
 }

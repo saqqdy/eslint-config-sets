@@ -1,5 +1,4 @@
-
-# eslint规则
+# eslint 规则
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -21,21 +20,22 @@
 [download-image]: https://img.shields.io/npm/dm/eslint-config-sets.svg?style=flat-square
 [download-url]: https://npmjs.org/package/eslint-config-sets
 
+## vue 安装插件
 
-## vue安装插件
+npm install eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdoc @babel/eslint-parser eslint prettier vue-eslint-parser
 
-npm install eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
+## vue3.0 安装插件
 
-## vue3.0安装插件
+npm install eslint-plugin-vue eslint-plugin-prettier @vue/eslint-config-prettier eslint-plugin-jsdoc @babel/eslint-parser eslint prettier vue-eslint-parser
 
-npm install eslint-plugin-vue eslint-plugin-prettier @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
+## egg 安装插件
 
-## egg安装插件
+npm install eslint-config-egg eslint prettier @babel/eslint-parser
 
-npm install eslint-config-egg eslint prettier babel-eslint 
+## simple 安装插件
 
+npm install eslint prettier @babel/eslint-parser
 
-## nuxt安装插件
+## nuxt 安装插件
 
-npm install eslint prettier babel-eslint @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier vue-eslint-parser
-
+npm install eslint prettier @babel/eslint-parser @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier vue-eslint-parser
