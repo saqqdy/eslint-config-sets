@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-sets",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "eslint sets demo",
     "main": "index.js",
     "scripts": {

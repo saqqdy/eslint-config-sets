@@ -22,7 +22,7 @@
 
 ## vue 安装插件
 
-npm install eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdoc @babel/eslint-parser eslint prettier vue-eslint-parser
+npm install eslint-plugin-vue eslint-plugin-prettier eslint-plugin-vue-scoped-css eslint-plugin-jsdoc @babel/eslint-parser eslint prettier vue-eslint-parser
 
 ## vue3.0 安装插件
 
@@ -30,11 +30,11 @@ npm install eslint-plugin-vue eslint-plugin-prettier @vue/eslint-config-prettier
 
 ## egg 安装插件
 
-npm install eslint-config-egg eslint prettier @babel/eslint-parser
+npm install eslint-config-egg eslint-plugin-prettier eslint prettier @babel/eslint-parser
 
 ## simple 安装插件
 
-npm install eslint prettier @babel/eslint-parser
+npm install eslint prettier eslint-plugin-prettier @babel/eslint-parser
 
 ## nuxt 安装插件
 
