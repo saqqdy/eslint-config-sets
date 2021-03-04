@@ -10,7 +10,7 @@
     "parser": "vue-eslint-parser",
     "parserOptions": {
         "sourceType": "module",
-        "parser": "babel-parser"
+        "parser": "babel-eslint"
     },
     "extends": ["@nuxtjs", "prettier", "prettier/vue", "plugin:nuxt/recommended", "plugin:jsdoc/recommended"],
     "plugins": ["prettier"],
