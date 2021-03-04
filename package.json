@@ -1,7 +1,7 @@
 {
     "name": "eslint-config-sets",
-    "version": "1.0.10",
-    "description": "eslint sets demo",
+    "version": "1.1.0",
+    "description": "eslint sets",
     "main": "index.js",
     "scripts": {
         "prettier": "prettier --write \"**/*.{js,ts,sh,json,md}\"",
@@ -24,8 +24,8 @@
     "license": "ISC",
     "devDependencies": {
         "@babel/core": "^7.12.16",
-        "@babel/eslint-parser": "^7.12.16",
         "@saqqdy/prettier-config": "^1.0.3",
+        "babel-eslint": "^10.1.0",
         "eslint": "^7.12.1",
         "prettier": "^2.1.2",
         "vue-eslint-parser": "^7.3.0"

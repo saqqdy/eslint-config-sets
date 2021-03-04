@@ -50,7 +50,7 @@
     "parser": "vue-eslint-parser",
     "parserOptions": {
         "sourceType": "module",
-        "parser": "@babel/eslint-parser",
+        "parser": "babel-parser",
         "vueFeatures": {}
     },
     "extends": ["plugin:vue/essential", "plugin:vue-scoped-css/base", "eslint:recommended", "plugin:jsdoc/recommended"]

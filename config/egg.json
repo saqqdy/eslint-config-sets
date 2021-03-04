@@ -48,8 +48,8 @@
     "parserOptions": {
         "sourceType": "module",
         "ecmaVersion": 6,
-        "parser": "@babel/eslint-parser"
+        "parser": "babel-parser"
     },
-    "parser": "@babel/eslint-parser",
+    "parser": "babel-parser",
     "extends": "eslint-config-egg"
 }

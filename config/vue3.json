@@ -10,7 +10,7 @@
     "parser": "vue-eslint-parser",
     "parserOptions": {
         "sourceType": "module",
-        "parser": "@babel/eslint-parser"
+        "parser": "babel-parser"
     },
     "extends": ["plugin:vue/vue3-essential", "eslint:recommended", "@vue/prettier", "plugin:jsdoc/recommended"],
     "rules": {
