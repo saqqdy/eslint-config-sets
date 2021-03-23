@@ -38,4 +38,4 @@ npm install eslint prettier babel-eslint
 
 ## nuxt 安装插件
 
-npm install eslint prettier babel-eslint @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier vue-eslint-parser
+npm install eslint prettier babel-eslint @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier@8.x vue-eslint-parser
