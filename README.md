@@ -22,20 +22,24 @@
 
 ## vue 安装插件
 
-npm install eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
+npm install -D eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
 
 ## vue3.0 安装插件
 
-npm install eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
+npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
+
+## vue3.0 typescript版本安装插件
+
+npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript typescript
 
 ## egg 安装插件
 
-npm install eslint-config-egg eslint prettier babel-eslint
+npm install -D eslint-config-egg eslint prettier babel-eslint
 
 ## simple 安装插件
 
-npm install eslint prettier babel-eslint
+npm install -D eslint prettier babel-eslint
 
 ## nuxt 安装插件
 
-npm install eslint prettier babel-eslint @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier@8.x vue-eslint-parser
+npm install -D eslint prettier babel-eslint @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier@8.x vue-eslint-parser
