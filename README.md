@@ -87,7 +87,7 @@ eslint-config-sets 包含了下面这几套配置
 
 ## 引入方法
 
-1. 在 vue3.0 项目中使用
+1. 在 `vue3.0` 项目中使用
 
 ```js
 // .eslintrc.js
@@ -100,7 +100,7 @@ module.exports = Object.assign(config, {
 })
 ```
 
-2. 在 vue3.0 typescript 项目中使用
+2. 在 `vue3.0 typescript` 项目中使用
 
 ```js
 // .eslintrc.js
@@ -108,7 +108,7 @@ const { vue3Ts: config } = require('eslint-config-sets')
 // ...同上
 ```
 
-3. 在 react 项目中使用
+3. 在 `react` 项目中使用
 
 ```js
 // .eslintrc.js
@@ -116,10 +116,34 @@ const { react: config } = require('eslint-config-sets')
 // ...同上
 ```
 
-4. 在 egg 项目中使用
+4. 在 `react typescript` 项目中使用
+
+```js
+// .eslintrc.js
+const { reactTs: config } = require('eslint-config-sets')
+// ...同上
+```
+
+5. 在 `egg` 项目中使用
 
 ```js
 // .eslintrc.js
 const { egg: config } = require('eslint-config-sets')
+// ...同上
+```
+
+6. 在 `nuxt` 项目中使用
+
+```js
+// .eslintrc.js
+const { egg: config } = require('eslint-config-sets')
+// ...同上
+```
+
+7. 在 `js lib` 项目中使用
+
+```js
+// .eslintrc.js
+const { simple: config } = require('eslint-config-sets')
 // ...同上
 ```
