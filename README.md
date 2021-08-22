@@ -1,4 +1,4 @@
-# eslint 规则
+# eslint 规则预设
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
