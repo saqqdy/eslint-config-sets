@@ -136,7 +136,7 @@ const { egg: config } = require('eslint-config-sets')
 
 ```js
 // .eslintrc.js
-const { egg: config } = require('eslint-config-sets')
+const { nuxt: config } = require('eslint-config-sets')
 // ...同上
 ```
 
