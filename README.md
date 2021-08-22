@@ -28,9 +28,17 @@ npm install -D eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdo
 
 npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
 
-## vue3.0 typescript版本安装插件
+## vue3.0 typescript 版本安装插件
 
 npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript typescript
+
+## react 安装插件
+
+npm install -D @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier
+
+## react-ts 安装插件
+
+npm install -D @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 
 ## egg 安装插件
 

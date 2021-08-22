@@ -2,18 +2,16 @@
     "root": true,
     "env": {
         "node": true,
-        "es6": true,
         "browser": true,
-        "shelljs": true,
-        "commonjs": true
+        "commonjs": true,
+        "es6": true
     },
     "parser": "vue-eslint-parser",
     "parserOptions": {
         "sourceType": "module",
-		"ecmaVersion": 2020,
-        "parser": "babel-eslint"
+        "ecmaVersion": 2020
     },
-    "extends": ["plugin:vue/vue3-essential", "eslint:recommended", "@vue/typescript/recommended", "@vue/prettier", "@vue/prettier/@typescript-eslint", "plugin:jsdoc/recommended"],
+    "extends": ["plugin:vue/vue3-essential", "plugin:jsdoc/recommended", "eslint:recommended", "@vue/typescript/recommended", "@vue/prettier", "@vue/prettier/@typescript-eslint"],
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
@@ -55,18 +53,19 @@
                     "allowFirstLine": false
                 }
             }
-        ]
+        ],
+        "@typescript-eslint/no-var-requires": 0
     },
     "globals": {
         "h": true
     },
     "overrides": [
-		{
-			"files": ["**/__tests__/*.{j,t}s?(x)", "**/tests/unit/**/*.spec.{j,t}s?(x)"],
-			"env": {
-				"mocha": true
-			}
-		},
+        {
+            "files": ["**/__tests__/*.{j,t}s?(x)", "**/tests/unit/**/*.spec.{j,t}s?(x)"],
+            "env": {
+                "mocha": true
+            }
+        },
         {
             "files": ["*.vue"],
             "rules": {

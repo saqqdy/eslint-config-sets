@@ -2,10 +2,9 @@
     "root": true,
     "env": {
         "node": true,
-        "es6": true,
         "browser": true,
-        "shelljs": true,
-        "commonjs": true
+        "commonjs": true,
+        "es6": true
     },
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
