@@ -84,7 +84,11 @@
         "quotes": ["error", "single"]
     },
     "globals": {
-        "h": true
+        "h": true,
+        "defineProps": "readonly",
+        "defineEmits": "readonly",
+        "defineExpose": "readonly",
+        "withDefaults": "readonly"
     },
     "overrides": [
         {
