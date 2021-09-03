@@ -8,10 +8,18 @@
     },
     "parser": "vue-eslint-parser",
     "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "ecmaVersion": 2020,
         "sourceType": "module",
-        "ecmaVersion": 2020
+        "project": "./tsconfig.json",
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "experimentalDecorators": true,
+            "jsx": true
+        }
     },
-    "extends": ["plugin:vue/vue3-essential", "plugin:jsdoc/recommended", "eslint:recommended", "@vue/typescript/recommended", "@vue/prettier", "@vue/prettier/@typescript-eslint"],
+    "plugins": ["@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"],
+    "extends": ["plugin:vue/vue3-essential", "plugin:@typescript-eslint/recommended", "eslint:recommended", "@vue/typescript/recommended", "@vue/prettier", "@vue/prettier/@typescript-eslint"],
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
@@ -54,7 +62,26 @@
                 }
             }
         ],
-        "@typescript-eslint/no-var-requires": 0
+        "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/ban-ts-ignore": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/no-empty-function": "off",
+        "vue/custom-event-name-casing": "off",
+        "no-use-before-define": "off",
+        "@typescript-eslint/no-use-before-define": "off",
+        "@typescript-eslint/ban-ts-comment": "off",
+        "@typescript-eslint/ban-types": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-unused-vars": [
+            1,
+            {
+                "argsIgnorePattern": "^h$",
+                "varsIgnorePattern": "^h$"
+            }
+        ],
+        "quotes": ["error", "single"]
     },
     "globals": {
         "h": true
