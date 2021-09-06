@@ -64,6 +64,12 @@ npm install -D eslint-config-egg eslint prettier babel-eslint
 npm install -D eslint prettier babel-eslint
 ```
 
+## simple typescript 安装插件
+
+```shell
+npm install -D eslint prettier babel-eslint eslint-plugin-tsdoc @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
+```
+
 ## nuxt 安装插件
 
 ```shell
@@ -84,6 +90,7 @@ eslint-config-sets 包含了下面这几套配置
 -   `vue3`: vue3.0 项目
 -   `vue3Ts`: vue3.0 typescript 项目
 -   `simple`: node lib 项目
+-   `simpleTs`: node lib typescript 项目
 
 ## 引入方法
 

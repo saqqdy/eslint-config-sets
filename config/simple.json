@@ -10,7 +10,7 @@
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
-        "semi": [2, "always"],
+        "semi": [2, "never"],
         "comma-dangle": "off",
         "one-var": [
             "warn",
