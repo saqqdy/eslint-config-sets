@@ -6,7 +6,7 @@
         "commonjs": true,
         "es6": true
     },
-    "parser": "babel-eslint",
+    "parser": "@typescript-eslint/parser",
     "extends": ["eslint:recommended", "plugin:jsdoc/recommended", "plugin:react/recommended", "@vue/prettier", "@vue/prettier/@typescript-eslint"],
     "parserOptions": {
         "parser": "@typescript-eslint/parser",
