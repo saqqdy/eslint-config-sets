@@ -1,11 +1,13 @@
 # eslint 规则预设
 
 [![NPM version][npm-image]][npm-url]
+[![Codacy Badge][codacy-image]][codacy-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][codecov-image]][codecov-url]
 [![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
+[![License][license-image]][license-url]
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-sets.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-config-sets
@@ -19,66 +21,68 @@
 [snyk-url]: https://snyk.io/test/npm/eslint-config-sets
 [download-image]: https://img.shields.io/npm/dm/eslint-config-sets.svg?style=flat-square
 [download-url]: https://npmjs.org/package/eslint-config-sets
+[license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-url]: LICENSE
 
-# 安装依赖
+## 安装依赖
 
-## vue 安装插件
+### vue 安装插件
 
 ```shell
 npm install -D eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
 ```
 
-## vue3.0 安装插件
+### vue3.0 安装插件
 
 ```shell
 npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
 ```
 
-## vue3.0 typescript 版本安装插件
+### vue3.0 typescript 版本安装插件
 
 ```shell
 npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-tsdoc babel-eslint eslint prettier vue-eslint-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript typescript
 ```
 
-## react 安装插件
+### react 安装插件
 
 ```shell
 npm install -D @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier
 ```
 
-## react typescript 安装插件
+### react typescript 安装插件
 
 ```shell
 npm install -D @vue/eslint-config-prettier eslint-plugin-tsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 ```
 
-## egg 安装插件
+### egg 安装插件
 
 ```shell
 npm install -D eslint-config-egg eslint prettier babel-eslint
 ```
 
-## simple 安装插件
+### simple 安装插件
 
 ```shell
 npm install -D eslint prettier babel-eslint
 ```
 
-## simple typescript 安装插件
+### simple typescript 安装插件
 
 ```shell
 npm install -D eslint prettier babel-eslint eslint-plugin-tsdoc @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 ```
 
-## nuxt 安装插件
+### nuxt 安装插件
 
 ```shell
 npm install -D eslint prettier babel-eslint @nuxtjs/eslint-config @nuxtjs/eslint-module eslint-config-prettier eslint-plugin-jsdoc eslint-plugin-nuxt eslint-plugin-prettier@8.x vue-eslint-parser
 ```
 
-# 使用
+## 使用
 
-## 配置说明
+### 配置说明
 
 eslint-config-sets 包含了下面这几套配置
 
@@ -92,65 +96,65 @@ eslint-config-sets 包含了下面这几套配置
 -   `simple`: node lib 项目
 -   `simpleTs`: node lib typescript 项目
 
-## 引入方法
+### 引入方法
 
 1. 在 `vue3.0` 项目中使用
 
-```js
-// .eslintrc.js
-const { vue3: config } = require('eslint-config-sets')
-module.exports = Object.assign(config, {
-    rules: {
-        // 自定义规则
-        // semi: [2, 'never']
-    }
-})
-```
+    ```js
+    // .eslintrc.js
+    const { vue3: config } = require('eslint-config-sets')
+    module.exports = Object.assign(config, {
+        rules: {
+            // 自定义规则
+            // semi: [2, 'never']
+        }
+    })
+    ```
 
 2. 在 `vue3.0 typescript` 项目中使用
 
-```js
-// .eslintrc.js
-const { vue3Ts: config } = require('eslint-config-sets')
-// ...同上
-```
+    ```js
+    // .eslintrc.js
+    const { vue3Ts: config } = require('eslint-config-sets')
+    // ...同上
+    ```
 
 3. 在 `react` 项目中使用
 
-```js
-// .eslintrc.js
-const { react: config } = require('eslint-config-sets')
-// ...同上
-```
+    ```js
+    // .eslintrc.js
+    const { react: config } = require('eslint-config-sets')
+    // ...同上
+    ```
 
 4. 在 `react typescript` 项目中使用
 
-```js
-// .eslintrc.js
-const { reactTs: config } = require('eslint-config-sets')
-// ...同上
-```
+    ```js
+    // .eslintrc.js
+    const { reactTs: config } = require('eslint-config-sets')
+    // ...同上
+    ```
 
 5. 在 `egg` 项目中使用
 
-```js
-// .eslintrc.js
-const { egg: config } = require('eslint-config-sets')
-// ...同上
-```
+    ```js
+    // .eslintrc.js
+    const { egg: config } = require('eslint-config-sets')
+    // ...同上
+    ```
 
 6. 在 `nuxt` 项目中使用
 
-```js
-// .eslintrc.js
-const { nuxt: config } = require('eslint-config-sets')
-// ...同上
-```
+    ```js
+    // .eslintrc.js
+    const { nuxt: config } = require('eslint-config-sets')
+    // ...同上
+    ```
 
 7. 在 `js lib` 项目中使用
 
-```js
-// .eslintrc.js
-const { simple: config } = require('eslint-config-sets')
-// ...同上
-```
+    ```js
+    // .eslintrc.js
+    const { simple: config } = require('eslint-config-sets')
+    // ...同上
+    ```
