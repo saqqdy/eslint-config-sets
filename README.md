@@ -9,6 +9,8 @@
 [![npm download][download-image]][download-url]
 [![License][license-image]][license-url]
 
+[![Sonar][sonar-image]][sonar-url]
+
 [npm-image]: https://img.shields.io/npm/v/eslint-config-sets.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-config-sets
 [travis-image]: https://travis-ci.org/saqqdy/eslint-config-sets.svg?branch=master
@@ -23,6 +25,8 @@
 [download-url]: https://npmjs.org/package/eslint-config-sets
 [license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
 [license-url]: LICENSE
+[sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_eslint-config-sets
+[sonar-url]: https://sonarcloud.io/dashboard?id=saqqdy_eslint-config-sets
 
 ## 安装依赖
 
