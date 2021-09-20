@@ -41,7 +41,9 @@
         "no-shadow": 0,
         "no-prototype-builtins": 0,
         "no-undef": 2,
-        "no-irregular-whitespace": 1
+        "no-irregular-whitespace": 1,
+        "indent": [1, 4],
+        "array-bracket-spacing": [1, "never"]
     },
     "globals": {
         "h": true
