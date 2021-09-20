@@ -1,4 +1,6 @@
-# eslint 规则预设
+# eslint-config-sets
+
+eslint 规则预设
 
 [![NPM version][npm-image]][npm-url]
 [![Codacy Badge][codacy-image]][codacy-url]
