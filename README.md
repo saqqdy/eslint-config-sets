@@ -13,6 +13,8 @@
 
 [npm-image]: https://img.shields.io/npm/v/eslint-config-sets.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/eslint-config-sets
+[codacy-image]: https://app.codacy.com/project/badge/Grade/f70d4880e4ad4f40aa970eb9ee9d0696
+[codacy-url]: https://www.codacy.com/gh/saqqdy/eslint-config-sets/dashboard?utm_source=github.com&utm_medium=referral&utm_content=saqqdy/eslint-config-sets&utm_campaign=Badge_Grade
 [travis-image]: https://travis-ci.org/saqqdy/eslint-config-sets.svg?branch=master
 [travis-url]: https://travis-ci.org/saqqdy/eslint-config-sets
 [codecov-image]: https://img.shields.io/codecov/c/github/saqqdy/eslint-config-sets.svg?style=flat-square
