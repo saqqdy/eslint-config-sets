@@ -7,7 +7,7 @@
         "es6": true
     },
     "parser": "@typescript-eslint/parser",
-    "extends": ["eslint:recommended", "plugin:jsdoc/recommended", "plugin:react/recommended"],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
     "parserOptions": {
         "parser": "@typescript-eslint/parser",
         "ecmaVersion": 2020,
