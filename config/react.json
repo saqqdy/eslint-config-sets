@@ -17,7 +17,7 @@
         },
         "sourceType": "module"
     },
-    "plugins": ["react"],
+    "plugins": ["react", "react-hooks"],
     "globals": {
         "__DEV__": false,
         "__dirname": false,
@@ -67,6 +67,7 @@
         "no-prototype-builtins": 0,
         "no-undef": 2,
         "no-irregular-whitespace": 1,
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        "react/react-in-jsx-scope": 0
     }
 }

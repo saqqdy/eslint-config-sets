@@ -19,7 +19,7 @@
         },
         "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"],
+    "plugins": ["react", "react-hooks", "@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"],
     "globals": {
         "__DEV__": false,
         "__dirname": false,
@@ -87,6 +87,7 @@
                 "varsIgnorePattern": "^h$"
             }
         ],
-        "quotes": ["error", "single"]
+        "quotes": ["error", "single"],
+        "react/react-in-jsx-scope": 0
     }
 }
