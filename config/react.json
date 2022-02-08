@@ -7,7 +7,7 @@
         "es6": true
     },
     "parser": "babel-eslint",
-    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:react/recommended", "@vue/prettier"],
+    "extends": ["eslint:recommended", "plugin:jsdoc/recommended", "plugin:react/recommended", "plugin:react/recommended"],
     "parserOptions": {
         "ecmaVersion": 2020,
         "ecmaFeatures": {
@@ -66,6 +66,7 @@
         "no-shadow": 0,
         "no-prototype-builtins": 0,
         "no-undef": 2,
-        "no-irregular-whitespace": 1
+        "no-irregular-whitespace": 1,
+        "quotes": ["error", "single"]
     }
 }

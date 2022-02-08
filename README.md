@@ -55,13 +55,13 @@ npm install -D eslint-plugin-vue @vue/eslint-config-prettier eslint-plugin-tsdoc
 ### react 安装插件
 
 ```shell
-npm install -D @vue/eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier
+npm install -D eslint-plugin-jsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier
 ```
 
 ### react typescript 安装插件
 
 ```shell
-npm install -D @vue/eslint-config-prettier eslint-plugin-tsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
+npm install -D eslint-plugin-tsdoc babel-eslint eslint-plugin-react eslint-plugin-import eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
 ```
 
 ### egg 安装插件

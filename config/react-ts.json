@@ -7,7 +7,7 @@
         "es6": true
     },
     "parser": "@typescript-eslint/parser",
-    "extends": ["eslint:recommended", "plugin:jsdoc/recommended", "plugin:react/recommended", "@vue/prettier", "@vue/prettier/@typescript-eslint"],
+    "extends": ["eslint:recommended", "plugin:jsdoc/recommended", "plugin:react/recommended"],
     "parserOptions": {
         "parser": "@typescript-eslint/parser",
         "ecmaVersion": 2020,
@@ -74,7 +74,6 @@
         "@typescript-eslint/explicit-function-return-type": "off",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-empty-function": "off",
-        "vue/custom-event-name-casing": "off",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/ban-ts-comment": "off",
