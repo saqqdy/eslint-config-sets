@@ -28,7 +28,6 @@
         "no-mixed-spaces-and-tabs": 1,
         "space-before-function-paren": [0, "always"],
         "no-unused-vars": 1,
-        "vue-scoped-css/require-scoped": 2,
         "no-dupe-keys": 2,
         "no-func-assign": 2,
         "valid-typeof": 2,
