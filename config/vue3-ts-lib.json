@@ -18,8 +18,18 @@
             "tsx": true
         }
     },
-    "plugins": ["@typescript-eslint", "eslint-plugin-tsdoc", "prettier", "import"],
-    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:vue/vue3-recommended", "prettier"],
+    "plugins": [
+        "@typescript-eslint",
+        "eslint-plugin-tsdoc",
+        "prettier",
+        "import"
+    ],
+    "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:vue/vue3-recommended",
+        "prettier"
+    ],
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
@@ -45,7 +55,10 @@
         "no-mixed-spaces-and-tabs": 1,
         "space-before-function-paren": [0, "always"],
         "object-shorthand": 2,
-        "no-unused-vars": [2, { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }],
+        "no-unused-vars": [
+            2,
+            { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }
+        ],
         "no-dupe-keys": 2,
         "no-func-assign": 2,
         "valid-typeof": 2,
@@ -64,7 +77,10 @@
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-non-null-assertion": "off",
         "@typescript-eslint/no-non-null-asserted-optional-chain": "off",
-        "@typescript-eslint/consistent-type-imports": ["error", { "disallowTypeAnnotations": false }],
+        "@typescript-eslint/consistent-type-imports": [
+            "error",
+            { "disallowTypeAnnotations": false }
+        ],
         "quotes": ["error", "single"]
     },
     "globals": {
@@ -77,7 +93,10 @@
     },
     "overrides": [
         {
-            "files": ["**/__tests__/*.{j,t}s?(x)", "**/tests/unit/**/*.spec.{j,t}s?(x)"],
+            "files": [
+                "**/__tests__/*.{j,t}s?(x)",
+                "**/tests/unit/**/*.spec.{j,t}s?(x)"
+            ],
             "env": {
                 "mocha": true
             },

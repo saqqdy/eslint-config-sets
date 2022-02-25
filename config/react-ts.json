@@ -19,7 +19,12 @@
         },
         "sourceType": "module"
     },
-    "plugins": ["react", "react-hooks", "@typescript-eslint/eslint-plugin", "eslint-plugin-tsdoc"],
+    "plugins": [
+        "react",
+        "react-hooks",
+        "@typescript-eslint/eslint-plugin",
+        "eslint-plugin-tsdoc"
+    ],
     "globals": {
         "__DEV__": false,
         "__dirname": false,
@@ -61,7 +66,10 @@
         "no-mixed-spaces-and-tabs": 1,
         "space-before-function-paren": [0, "always"],
         "object-shorthand": 2,
-        "no-unused-vars": [2, { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }],
+        "no-unused-vars": [
+            2,
+            { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }
+        ],
         "no-dupe-keys": 2,
         "no-func-assign": 2,
         "valid-typeof": 2,

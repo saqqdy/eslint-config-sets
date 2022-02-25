@@ -41,7 +41,10 @@
         "no-mixed-spaces-and-tabs": 1,
         "space-before-function-paren": [0, "always"],
         "object-shorthand": 2,
-        "no-unused-vars": [2, { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }],
+        "no-unused-vars": [
+            2,
+            { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }
+        ],
         "no-dupe-keys": 2,
         "no-func-assign": 2,
         "valid-typeof": 2,
@@ -75,7 +78,10 @@
     },
     "overrides": [
         {
-            "files": ["**/__tests__/*.{j,t}s?(x)", "**/tests/unit/**/*.spec.{j,t}s?(x)"],
+            "files": [
+                "**/__tests__/*.{j,t}s?(x)",
+                "**/tests/unit/**/*.spec.{j,t}s?(x)"
+            ],
             "env": {
                 "mocha": true
             }

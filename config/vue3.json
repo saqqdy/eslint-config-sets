@@ -11,7 +11,13 @@
         "sourceType": "module",
         "ecmaVersion": 2020
     },
-    "extends": ["plugin:vue/vue3-essential", "plugin:vue-scoped-css/vue3-recommended", "plugin:jsdoc/recommended", "eslint:recommended", "@vue/prettier"],
+    "extends": [
+        "plugin:vue/vue3-essential",
+        "plugin:vue-scoped-css/vue3-recommended",
+        "plugin:jsdoc/recommended",
+        "eslint:recommended",
+        "@vue/prettier"
+    ],
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
@@ -33,7 +39,10 @@
         "no-mixed-spaces-and-tabs": 1,
         "space-before-function-paren": [0, "always"],
         "object-shorthand": 2,
-        "no-unused-vars": [2, { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }],
+        "no-unused-vars": [
+            2,
+            { "ignoreRestSiblings": true, "argsIgnorePattern": "^h$" }
+        ],
         "no-dupe-keys": 2,
         "no-func-assign": 2,
         "valid-typeof": 2,

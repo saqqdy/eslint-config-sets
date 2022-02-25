@@ -16,6 +16,7 @@
         "eslint-config-sets",
         "eslint-vue",
         "eslint-vue3",
+        "eslint-vue3-lib",
         "eslint-nuxt",
         "eslint",
         "eslint-helper"
@@ -23,11 +24,11 @@
     "author": "saqqdy",
     "license": "ISC",
     "devDependencies": {
-        "@babel/core": "^7.12.16",
-        "@saqqdy/prettier-config": "^1.0.3",
+        "@babel/core": "^7.17.5",
+        "@saqqdy/prettier-config": "^1.1.1",
         "babel-eslint": "^10.1.0",
         "eslint": "^7.12.1",
-        "prettier": "^2.1.2",
+        "prettier": "^2.5.1",
         "vue-eslint-parser": "^7.3.0"
     },
     "dependencies": {}
