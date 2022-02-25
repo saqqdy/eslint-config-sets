@@ -52,6 +52,12 @@ npm install -D eslint-plugin-vue eslint-plugin-vue-scoped-css @vue/eslint-config
 npm install -D eslint-plugin-vue eslint-plugin-vue-scoped-css @vue/eslint-config-prettier eslint-plugin-tsdoc babel-eslint eslint prettier vue-eslint-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript typescript
 ```
 
+### vue3.0 typescript library 版本安装插件
+
+```shell
+npm install -D eslint-plugin-vue eslint-plugin-tsdoc eslint-plugin-import eslint-plugin-prettier eslint-config-prettier babel-eslint eslint prettier vue-eslint-parser @typescript-eslint/eslint-plugin @typescript-eslint/parser typescript
+```
+
 ### react 安装插件
 
 ```shell
@@ -127,7 +133,15 @@ eslint-config-sets 包含了下面这几套配置
     // ...同上
     ```
 
-3. 在 `react` 项目中使用
+3. 在 `vue3.0 typescript library` 项目中使用
+
+    ```js
+    // .eslintrc.js
+    const { vue3TsLib: config } = require('eslint-config-sets')
+    // ...同上
+    ```
+
+4. 在 `react` 项目中使用
 
     ```js
     // .eslintrc.js
@@ -135,7 +149,7 @@ eslint-config-sets 包含了下面这几套配置
     // ...同上
     ```
 
-4. 在 `react typescript` 项目中使用
+5. 在 `react typescript` 项目中使用
 
     ```js
     // .eslintrc.js
@@ -143,7 +157,7 @@ eslint-config-sets 包含了下面这几套配置
     // ...同上
     ```
 
-5. 在 `egg` 项目中使用
+6. 在 `egg` 项目中使用
 
     ```js
     // .eslintrc.js
@@ -151,7 +165,7 @@ eslint-config-sets 包含了下面这几套配置
     // ...同上
     ```
 
-6. 在 `nuxt` 项目中使用
+7. 在 `nuxt` 项目中使用
 
     ```js
     // .eslintrc.js
@@ -159,7 +173,7 @@ eslint-config-sets 包含了下面这几套配置
     // ...同上
     ```
 
-7. 在 `js lib` 项目中使用
+8. 在 `js lib` 项目中使用
 
     ```js
     // .eslintrc.js
