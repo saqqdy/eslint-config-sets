@@ -1,3 +1,5 @@
+<div style="text-align: center;" align="center">
+
 # eslint-config-sets
 
 eslint 规则预设
@@ -10,18 +12,7 @@ eslint 规则预设
 
 [![Sonar][sonar-image]][sonar-url]
 
-[npm-image]: https://img.shields.io/npm/v/eslint-config-sets.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/eslint-config-sets
-[codacy-image]: https://app.codacy.com/project/badge/Grade/f70d4880e4ad4f40aa970eb9ee9d0696
-[codacy-url]: https://www.codacy.com/gh/saqqdy/eslint-config-sets/dashboard?utm_source=github.com&utm_medium=referral&utm_content=saqqdy/eslint-config-sets&utm_campaign=Badge_Grade
-[snyk-image]: https://snyk.io/test/npm/eslint-config-sets/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/eslint-config-sets
-[download-image]: https://img.shields.io/npm/dm/eslint-config-sets.svg?style=flat-square
-[download-url]: https://npmjs.org/package/eslint-config-sets
-[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
-[license-url]: LICENSE
-[sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_eslint-config-sets
-[sonar-url]: https://sonarcloud.io/dashboard?id=saqqdy_eslint-config-sets
+</div>
 
 ## 安装依赖
 
@@ -171,3 +162,16 @@ eslint-config-sets 包含了下面这几套配置
     const { simple: config } = require('eslint-config-sets')
     // ...同上
     ```
+
+[npm-image]: https://img.shields.io/npm/v/eslint-config-sets.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/eslint-config-sets
+[codacy-image]: https://app.codacy.com/project/badge/Grade/f70d4880e4ad4f40aa970eb9ee9d0696
+[codacy-url]: https://www.codacy.com/gh/saqqdy/eslint-config-sets/dashboard?utm_source=github.com&utm_medium=referral&utm_content=saqqdy/eslint-config-sets&utm_campaign=Badge_Grade
+[snyk-image]: https://snyk.io/test/npm/eslint-config-sets/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/eslint-config-sets
+[download-image]: https://img.shields.io/npm/dm/eslint-config-sets.svg?style=flat-square
+[download-url]: https://npmjs.org/package/eslint-config-sets
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
+[license-url]: LICENSE
+[sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_eslint-config-sets
+[sonar-url]: https://sonarcloud.io/dashboard?id=saqqdy_eslint-config-sets
