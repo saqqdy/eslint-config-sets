@@ -4,9 +4,6 @@ eslint 规则预设
 
 [![NPM version][npm-image]][npm-url]
 [![Codacy Badge][codacy-image]][codacy-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 [![License][license-image]][license-url]
@@ -17,17 +14,11 @@ eslint 规则预设
 [npm-url]: https://npmjs.org/package/eslint-config-sets
 [codacy-image]: https://app.codacy.com/project/badge/Grade/f70d4880e4ad4f40aa970eb9ee9d0696
 [codacy-url]: https://www.codacy.com/gh/saqqdy/eslint-config-sets/dashboard?utm_source=github.com&utm_medium=referral&utm_content=saqqdy/eslint-config-sets&utm_campaign=Badge_Grade
-[travis-image]: https://travis-ci.org/saqqdy/eslint-config-sets.svg?branch=master
-[travis-url]: https://travis-ci.org/saqqdy/eslint-config-sets
-[codecov-image]: https://img.shields.io/codecov/c/github/saqqdy/eslint-config-sets.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/saqqdy/eslint-config-sets?branch=master
-[david-image]: https://img.shields.io/david/saqqdy/eslint-config-sets.svg?style=flat-square
-[david-url]: https://david-dm.org/saqqdy/eslint-config-sets
 [snyk-image]: https://snyk.io/test/npm/eslint-config-sets/badge.svg?style=flat-square
 [snyk-url]: https://snyk.io/test/npm/eslint-config-sets
 [download-image]: https://img.shields.io/npm/dm/eslint-config-sets.svg?style=flat-square
 [download-url]: https://npmjs.org/package/eslint-config-sets
-[license-image]: https://img.shields.io/badge/License-MIT-yellow.svg
+[license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE
 [sonar-image]: https://sonarcloud.io/api/project_badges/quality_gate?project=saqqdy_eslint-config-sets
 [sonar-url]: https://sonarcloud.io/dashboard?id=saqqdy_eslint-config-sets
