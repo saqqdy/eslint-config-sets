@@ -89,6 +89,7 @@ eslint-config-sets 包含了下面这几套配置
 -   `vue`: vue 全家桶项目
 -   `vue3`: vue3.0 项目
 -   `vue3Ts`: vue3.0 typescript 项目
+-   `vue3TsLib`: vue3.0 typescript library 项目
 -   `simple`: node lib 项目
 -   `simpleTs`: node lib typescript 项目
 
