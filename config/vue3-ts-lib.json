@@ -81,6 +81,7 @@
             "error",
             { "disallowTypeAnnotations": false }
         ],
+        "@typescript-eslint/no-var-requires": 0,
         "quotes": ["error", "single"]
     },
     "globals": {
