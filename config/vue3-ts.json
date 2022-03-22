@@ -89,6 +89,7 @@
                 "varsIgnorePattern": "^h$"
             }
         ],
+        "@typescript-eslint/no-redeclare": 2,
         "quotes": ["error", "single"]
     },
     "globals": {
