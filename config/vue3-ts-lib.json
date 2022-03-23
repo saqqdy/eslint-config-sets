@@ -28,6 +28,7 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:vue/vue3-recommended",
+        "plugin:vitest-globals/recommended",
         "prettier"
     ],
     "rules": {
@@ -82,6 +83,14 @@
             { "disallowTypeAnnotations": false }
         ],
         "@typescript-eslint/no-var-requires": 0,
+        "@typescript-eslint/no-unused-vars": [
+            2,
+            {
+                "argsIgnorePattern": "^h$",
+                "varsIgnorePattern": "^h$"
+            }
+        ],
+        "@typescript-eslint/no-redeclare": 2,
         "quotes": ["error", "single"]
     },
     "globals": {
@@ -94,12 +103,11 @@
     },
     "overrides": [
         {
-            "files": [
-                "**/__tests__/*.{j,t}s?(x)",
-                "**/tests/unit/**/*.spec.{j,t}s?(x)"
-            ],
+            "files": ["**/__tests__/*.{j,t}s?(x)", "**/*.spec.{j,t}s?(x)"],
             "env": {
-                "mocha": true
+                "mocha": true,
+                "jest": true,
+                "vitest-globals/env": true
             },
             "rules": {
                 "no-console": "off",

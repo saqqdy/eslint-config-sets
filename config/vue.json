@@ -52,9 +52,10 @@
         "vueFeatures": {}
     },
     "extends": [
-        "plugin:vue/essential",
         "eslint:recommended",
+        "plugin:vue/recommended",
         "plugin:vue-scoped-css/base",
-        "plugin:jsdoc/recommended"
+        "plugin:jsdoc/recommended",
+        "prettier"
     ]
 }

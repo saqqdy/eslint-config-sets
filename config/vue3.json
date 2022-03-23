@@ -8,21 +8,33 @@
     },
     "parser": "vue-eslint-parser",
     "parserOptions": {
+        "ecmaVersion": 2020,
         "sourceType": "module",
-        "ecmaVersion": 2020
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "experimentalDecorators": true,
+            "jsx": true,
+            "tsx": true
+        }
     },
+    "plugins": ["eslint-plugin-jsdoc", "prettier", "import"],
     "extends": [
-        "plugin:vue/vue3-essential",
+        "eslint:recommended",
+        "plugin:vue/vue3-recommended",
         "plugin:vue-scoped-css/vue3-recommended",
         "plugin:jsdoc/recommended",
-        "eslint:recommended",
-        "@vue/prettier"
+        "plugin:vitest-globals/recommended",
+        "prettier"
     ],
     "rules": {
         "no-console": ["warn", { "allow": ["warn", "error", "info"] }],
         "no-debugger": 1,
         "semi": [2, "never"],
         "comma-dangle": "off",
+        "camelcase": ["error", { "properties": "never" }],
+        "no-var": "error",
+        "no-empty": ["error", { "allowEmptyCatch": true }],
+        "no-void": "error",
         "one-var": [
             "warn",
             {
@@ -50,23 +62,36 @@
         "no-prototype-builtins": 0,
         "no-undef": 2,
         "no-irregular-whitespace": 1,
-        "vue/no-use-v-if-with-v-for": [2, { "allowUsingIterationVar": false }],
-        "vue/no-multiple-template-root": 0,
-        "vue/max-attributes-per-line": [
-            2,
-            {
-                "singleline": 20,
-                "multiline": {
-                    "max": 1,
-                    "allowFirstLine": false
-                }
-            }
-        ]
+        "vue/no-v-html": "off",
+        "vue/require-default-prop": "off",
+        "vue/require-explicit-emits": "off",
+        "vue/multi-word-component-names": "off",
+        "prettier/prettier": "error",
+        "import/first": "error",
+        "import/no-duplicates": "error",
+        "quotes": ["error", "single"]
     },
     "globals": {
-        "h": true
+        "h": true,
+        "jest": "readonly",
+        "defineProps": "readonly",
+        "defineEmits": "readonly",
+        "defineExpose": "readonly",
+        "withDefaults": "readonly"
     },
     "overrides": [
+        {
+            "files": ["**/__tests__/*.{j,t}s?(x)", "**/*.spec.{j,t}s?(x)"],
+            "env": {
+                "mocha": true,
+                "jest": true,
+                "vitest-globals/env": true
+            },
+            "rules": {
+                "no-console": "off",
+                "vue/one-component-per-file": "off"
+            }
+        },
         {
             "files": ["*.vue"],
             "rules": {
