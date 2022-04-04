@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
+        "camelcase",
         "nuxt",
-        "saqqdy"
+        "saqqdy",
+        "vitest"
     ]
 }

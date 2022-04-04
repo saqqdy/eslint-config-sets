@@ -16,7 +16,8 @@
             "experimentalDecorators": true,
             "jsx": true,
             "tsx": true
-        }
+        },
+        "vueFeatures": {}
     },
     "plugins": [
         "@typescript-eslint",

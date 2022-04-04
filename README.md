@@ -19,7 +19,7 @@ eslint 规则预设
 ### vue 安装插件
 
 ```shell
-npm install -D eslint-plugin-vue eslint-plugin-vue-scoped-css eslint-plugin-prettier eslint-config-prettier eslint-plugin-jsdoc babel-eslint eslint prettier vue-eslint-parser
+npm install -D eslint-plugin-vue eslint-plugin-jsdoc eslint-plugin-import eslint-plugin-vue-scoped-css eslint-plugin-prettier eslint-config-prettier babel-eslint eslint prettier vue-eslint-parser
 ```
 
 ### vue3.0 安装插件
