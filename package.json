@@ -31,5 +31,9 @@
         "prettier": "^2.5.1",
         "vue-eslint-parser": "^7.3.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    }
 }
