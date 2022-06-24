@@ -72,6 +72,7 @@
         "vue/require-default-prop": "off",
         "vue/require-explicit-emits": "off",
         "vue/multi-word-component-names": "off",
+		"linebreak-style": 0,
         "prettier/prettier": "error",
         "import/first": "error",
         "import/no-duplicates": "error",

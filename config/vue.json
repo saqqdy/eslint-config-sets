@@ -66,6 +66,7 @@
         "no-prototype-builtins": 0,
         "no-undef": 2,
         "no-irregular-whitespace": 1,
+		"linebreak-style": 0,
         "prettier/prettier": "error",
         "import/first": "error",
         "import/no-duplicates": "error",
