@@ -14,6 +14,8 @@ eslint 规则预设
 
 </div>
 
+> 这个项目已弃用，推荐使用重新开发的更现代化的 [@eslint-sets](https://github.com/saqqdy/eslint-sets#readme)
+
 ## 安装依赖
 
 ### vue 安装插件
